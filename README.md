@@ -1,14 +1,19 @@
-We will be build a tool using Elixir, Phoenix framework, LiveView.
+We will be build a forum using Elixir, Phoenix framework.
+With React or with LiveView is not decided yet.
 
-small baby steps, grow with time.
+Focus on
+- Clean Code
+- Tests
+- Load tests
 
-- 1> basic todo-app
-- 2> ToDo shared with family members
-- 3> ToDos marketplace, someone is creating list of Todos that one can purchase(example ToDos for birthday decoration/ interview preparation), etc.
-- 4> i18n - multi language support.
-- 5> CSV bulk import todos, export to CSV.
-- Use streaming data, apply rules to create TODO (example upcoming webinar
-  events)
+Use
+- Alpine js or Vue js
+- Oban
+- TailwindCSS
+- Phx gen auth
 
---
-- Use Nx for suggestions
+## Features
+- community i.e open forum
+- closed i.e Paid members only forum
+- optimise, so that small instance can run it. reducing cloud cost.
+- Use NX for autosuggestions / machine learning?
